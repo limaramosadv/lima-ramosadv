@@ -107,8 +107,7 @@ footer {
     right: 80px;
 }
 
-
-/* Estilo dos botões flutuantes de WhatsApp */
+/* Botões de WhatsApp */
 .whatsapp-buttons {
   position: fixed;
   bottom: 20px;
@@ -126,10 +125,15 @@ footer {
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s ease;
 }
 
 .whatsapp-btn:hover {
   background-color: #1ebc59;
+}
+
+footer a {
+  color: #fff;
 }
